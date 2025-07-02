@@ -4,7 +4,7 @@ import CRMDashboardButton from './CRMDashboardButton';
 
 export default function ChatHeader({ contact }) {
   return (
-    <div className={styles.header}>
+  <div className={styles.header}>
       <div className={styles.contactContainer}>
         <img src="/user.png" className={styles.contactProfile} alt="avatar" />
         {/* <Image src="/user.png" className={styles.contactProfile} alt="avatar" /> */}

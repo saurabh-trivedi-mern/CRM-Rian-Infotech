@@ -1,9 +1,10 @@
 import styles from './CRMDashboardButton.module.css';
+import Link from 'next/link';
 
 export default function CRMDashboardButton() {
   return (
     <div className={styles.buttoncontainer}>
-      <button className={styles.crmbutton}>📊 CRM Dashboard</button>
+      <Link href="/crm-dashboard"><button className={styles.crmbutton}>📊 CRM Dashboard</button></Link>
     </div>
   );
 }
