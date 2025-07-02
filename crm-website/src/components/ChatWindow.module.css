@@ -8,6 +8,6 @@
 }
 
 
-::-webkit-scrollbar{
-    width: 0px;
+.window::-webkit-scrollbar {
+  width: 0px;
 }
