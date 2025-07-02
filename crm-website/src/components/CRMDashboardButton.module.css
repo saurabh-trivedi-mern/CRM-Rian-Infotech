@@ -1,0 +1,19 @@
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crmbutton{
+    background-color: #0f172a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.crmbutton:hover{
+    background-color: #263650;
+}

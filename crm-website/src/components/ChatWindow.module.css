@@ -1,0 +1,13 @@
+.window {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+::-webkit-scrollbar{
+    width: 0px;
+}

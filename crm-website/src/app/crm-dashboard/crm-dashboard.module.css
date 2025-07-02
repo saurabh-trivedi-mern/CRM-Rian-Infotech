@@ -1,0 +1,6 @@
+.crmDashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  background-color: #f4f4f4;
+}

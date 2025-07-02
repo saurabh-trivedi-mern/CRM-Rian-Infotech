@@ -1,0 +1,63 @@
+.sidebar {
+  width: 300px;
+  background-color: #fff;
+  padding: 1rem 0.5rem;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  gap: 0.5rem;
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conversationsheading{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.createchat{
+  cursor: pointer;
+  scale : 1.5
+}
+
+
+.search {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f6f4f4;
+}
+
+.contacts {
+  flex: 1;
+  overflow-y: auto;
+  border-top: 1px solid #e2e8f0;
+}
+
+.contact {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  cursor: pointer;
+  display: flex;
+}
+
+.contactProfile{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}

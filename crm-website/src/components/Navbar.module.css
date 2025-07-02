@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+  font-family: sans-serif;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.persona {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  color : black;
+  border-left: 2px solid #afaeae;
+  padding: 0px 15px;
+}
+
+.dropdown {
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  background-color: #f3f4f6;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+}
+
+.dropdownList {
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  z-index: 10;
+  background-color: #f3f4f6;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0.3rem 0;
+}
+
+.dropdownList li {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.dropdownList li:hover {
+  background-color: #d1d1d1;
+}
+
+.profile button {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.profile button:hover {
+  color: #0f172a;
+}

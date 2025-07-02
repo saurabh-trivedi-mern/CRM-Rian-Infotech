@@ -1,0 +1,36 @@
+.filters {
+  display: flex;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  color: black;
+}
+
+.leftFilters{
+  display: flex;
+  gap: 1rem;
+}
+
+.leftFilters input{
+  min-width: 500px;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+} 
+
+.filters select {
+  max-width: 250px;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+}
+
+.export {
+  background-color: #1f2937;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
+
+.ai {
+  align-self: flex-start;
+  background-color: #f1f5f9;
+  border-radius: 10px 10px 10px 0;
+  padding: 0.75rem;
+  color: black;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: #0f172a;
+  color: white;
+  border-radius: 10px 10px 0 10px;
+  padding: 0.75rem;
+}
+
+.bubble {
+  position: relative;
+}
+
+.time {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.25rem;
+  display: block;
+}
